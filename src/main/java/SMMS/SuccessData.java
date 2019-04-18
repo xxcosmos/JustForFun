@@ -1,7 +1,6 @@
 package SMMS;
 
-public class SMMSRespnseData {
-    private String code;
+public class SuccessData {
     private String filename;
     private String storename;
     private int size;
@@ -11,15 +10,7 @@ public class SMMSRespnseData {
     private String delete;
     private String url;
     private String path;
-    private String msg;
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
+    private String timestamp;
 
     public String getFilename() {
         return filename;
@@ -93,19 +84,18 @@ public class SMMSRespnseData {
         this.path = path;
     }
 
-    public String getMsg() {
-        return msg;
+    public String getTimestamp() {
+        return timestamp;
     }
 
-    public void setMsg(String msg) {
-        this.msg = msg;
+    public void setTimestamp(String timestamp) {
+        this.timestamp = timestamp;
     }
 
     @Override
     public String toString() {
-        return "SMMSRespnseData{" +
-                "code='" + code + '\'' +
-                ", filename='" + filename + '\'' +
+        return "SuccessData{" +
+                "filename='" + filename + '\'' +
                 ", storename='" + storename + '\'' +
                 ", size=" + size +
                 ", width=" + width +
@@ -114,7 +104,7 @@ public class SMMSRespnseData {
                 ", delete='" + delete + '\'' +
                 ", url='" + url + '\'' +
                 ", path='" + path + '\'' +
-                ", msg='" + msg + '\'' +
+                ", timestamp='" + timestamp + '\'' +
                 '}';
     }
 }
