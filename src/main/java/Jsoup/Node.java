@@ -1,12 +1,14 @@
 package Jsoup;
 
 public class Node {
+    String image;
     String name;
     String introduction;
     String field;
     String local;
     String isCompany;
     String status;
+
 
     public String getName() {
         return name;
@@ -16,11 +18,19 @@ public class Node {
         this.name = name;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
     @Override
-    public String
-    toString() {
+    public String toString() {
         return "Node{" +
-                "name='" + name + '\'' +
+                "image='" + image + '\'' +
+                ", name='" + name + '\'' +
                 ", introduction='" + introduction + '\'' +
                 ", field='" + field + '\'' +
                 ", local='" + local + '\'' +

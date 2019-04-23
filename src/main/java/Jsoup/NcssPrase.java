@@ -8,7 +8,7 @@ import org.jsoup.select.Elements;
 import java.io.*;
 
 public class NcssPrase {
-    public static final String filePath = "/Users/xiaoyuu/IdeaProjects/JustForFun/src/main/resources/projectlist.htm";
+    public static final String filePath = "/Users/xiaoyuu/IdeaProjects/JustForFun/src/main/resources/test.html";
 
     static void prase() throws IOException {
         File file = new File(filePath);
@@ -21,20 +21,20 @@ public class NcssPrase {
         reader.close();
 
         String html = stringBuilder.toString();
-        System.out.println(html);
         Document document = Jsoup.parse(html);
         Elements tr = document.select("tr[data-link]");
-        System.out.println(tr.size());
         for (Element e : tr) {
             Node node = new Node();
             Elements tds = e.getElementsByTag("td");
-            System.out.println(tds.size());
+            String image;
+            String text;
             for (int i = 0; i < tds.size(); i++) {
-                String text;
                 switch (i) {
                     case 0:
                         text = tds.get(i).getElementsByTag("span").get(0).text();
+                        image = tds.get(i).getElementsByTag("img").get(0).attr("src");
                         node.setName(text);
+                        node.setImage(image);
                         break;
                     case 1:
                         text = tds.get(i).getElementsByTag("div").get(0).text();
