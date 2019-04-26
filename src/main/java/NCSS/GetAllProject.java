@@ -10,7 +10,7 @@ import java.io.IOException;
 public class GetAllProject {
     public static final String BASE_URL = "https://cy.ncss.org.cn/search/projectlist?name=&industryCode=&wasBindUniTechnology=-9&investStageCode=&provinceCode=";
     public static final int PROJECT_NUM = 592896;
-    public static final String PATH_NAME = "/Users/xiaoyuu/IdeaProjects/JustForFun/src/main/resources/project_list.txt";
+    public static final String PATH_NAME = "/Users/xiaoyuu/IdeaProjects/JustForFun/src/main/resources/xxx.txt";
 
     static void getProject() throws IOException {
         int pageSize = 1000;
