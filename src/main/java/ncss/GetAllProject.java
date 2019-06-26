@@ -1,7 +1,7 @@
-package NCSS;
+package ncss;
 
 import org.springframework.web.client.RestTemplate;
-import utils.GetARestTemplate;
+import utils.request.GetARestTemplate;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -29,7 +29,7 @@ public class GetAllProject {
     public static void main(String[] args) {
         try {
             getProject();
-//            File file = new File(PATH_NAME);
+//            file file = new file(PATH_NAME);
 //            FileWriter fileWriter = new FileWriter(file);
 //            fileWriter.write("");
         } catch (IOException e) {

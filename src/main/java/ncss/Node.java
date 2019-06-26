@@ -1,4 +1,4 @@
-package Jsoup;
+package ncss;
 
 public class Node {
     String image;

@@ -1,4 +1,4 @@
-package SMMS;
+package smms;
 
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.http.HttpEntity;
@@ -7,13 +7,10 @@ import org.springframework.http.MediaType;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
-import utils.GetARestTemplate;
+import utils.request.GetARestTemplate;
 
 import java.io.File;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
 
 public class UploadImg {
 

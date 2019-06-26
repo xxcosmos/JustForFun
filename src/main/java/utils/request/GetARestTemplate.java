@@ -1,6 +1,7 @@
-package utils;
+package utils.request;
 
 import org.springframework.web.client.RestTemplate;
+import utils.request.MyMappingJackson2HttpMessageConverter;
 
 public class GetARestTemplate {
 

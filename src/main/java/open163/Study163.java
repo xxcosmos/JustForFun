@@ -1,4 +1,4 @@
-package Jsoup;
+package open163;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -31,7 +31,4 @@ public class Study163 {
         }
     }
 
-    public static void getTitle() {
-
-    }
 }
