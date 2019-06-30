@@ -1,4 +1,4 @@
-package ncss;
+package project.ncss;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

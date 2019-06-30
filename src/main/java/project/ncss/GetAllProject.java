@@ -1,4 +1,4 @@
-package ncss;
+package project.ncss;
 
 import org.springframework.web.client.RestTemplate;
 import utils.request.GetARestTemplate;
@@ -29,8 +29,8 @@ public class GetAllProject {
     public static void main(String[] args) {
         try {
             getProject();
-//            file file = new file(PATH_NAME);
-//            FileWriter fileWriter = new FileWriter(file);
+//            project.file project.file = new project.file(PATH_NAME);
+//            FileWriter fileWriter = new FileWriter(project.file);
 //            fileWriter.write("");
         } catch (IOException e) {
             e.printStackTrace();

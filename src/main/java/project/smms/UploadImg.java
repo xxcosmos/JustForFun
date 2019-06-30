@@ -1,4 +1,4 @@
-package smms;
+package project.smms;
 
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.http.HttpEntity;

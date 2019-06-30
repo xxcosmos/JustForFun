@@ -1,9 +1,6 @@
-package wifi;
+package project.wifi;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.experimental.Accessors;
 
 @Data
 public class Bean {

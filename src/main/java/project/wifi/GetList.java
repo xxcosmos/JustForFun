@@ -1,16 +1,16 @@
-package wifi;
+package project.wifi;
 
-import cn.hutool.core.io.FileUtil;
 import cn.hutool.json.JSON;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONUtil;
 import cn.hutool.poi.excel.ExcelReader;
 import cn.hutool.poi.excel.ExcelUtil;
 
-import java.io.BufferedReader;
-import java.nio.charset.Charset;
 import java.util.List;
 
+/**
+ * @author xandcosmos@gmail.com
+ */
 public class GetList {
 
     public static void getList() {

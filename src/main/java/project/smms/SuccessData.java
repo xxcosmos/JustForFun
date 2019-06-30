@@ -1,4 +1,4 @@
-package smms;
+package project.smms;
 
 public class SuccessData {
     private String filename;

@@ -1,4 +1,4 @@
-package smms;
+package project.smms;
 
 public  class Response {
     private String code;

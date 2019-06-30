@@ -1,4 +1,4 @@
-package ncss;
+package project.ncss;
 
 public class Node {
     String image;
